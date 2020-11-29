@@ -1,1 +1,1 @@
-# node_stydy
+# node_study
