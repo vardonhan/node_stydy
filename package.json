@@ -11,10 +11,12 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "download-git-repo": "^3.0.2",
+    "egg": "^2.29.1",
     "express": "^4.17.1",
     "http-proxy-middleware": "^1.0.6",
     "iconv-lite": "^0.6.2",
     "koa": "^2.13.0",
+    "koa-router": "^10.0.0",
     "nodemon": "^2.0.6",
     "ora": "^5.1.0",
     "request": "^2.88.2"
