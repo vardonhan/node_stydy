@@ -1,10 +1,13 @@
+const { load } = require('cheerio')
 const Koa = require('koa')
-const { initRouter, initController} = require('./my-egg-loader')
+const { initRouter, initController, intiService, loadConfig} = require('./my-egg-loader')
 
 class MyEgg {
   constructor (conf) {
     this.$app = new Koa(conf)
-    this.$controller = initController()
+    loadConfig(this)
+    this.$controller = initController(this)
+    this.$service = intiService()
     this.$router = initRouter(this)
     this.$app.use(this.$router.routes())
   }
