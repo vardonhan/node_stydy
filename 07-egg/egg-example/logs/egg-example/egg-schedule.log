@@ -1,0 +1,12 @@
+2020-12-12 10:54:18,581 INFO 1112 [Timer] /Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 63341421ms at 2020-12-13 04:30:00.002
+2020-12-12 10:54:18,581 INFO 1112 [Timer] /Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 47141419ms at 2020-12-13 00:00:00.000
+2020-12-12 10:54:18,582 INFO 1112 [Timer] /Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 47142419ms at 2020-12-13 00:00:01.001
+2020-12-12 10:54:18,417 INFO 1113 [egg-schedule]: register schedule /Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-12-12 10:54:18,417 INFO 1113 [egg-schedule]: register schedule /Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-12-12 10:54:18,417 INFO 1113 [egg-schedule]: register schedule /Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-12-22 22:00:52,995 INFO 3240 [Timer] /Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 23347007ms at 2020-12-23 04:30:00.002
+2020-12-22 22:00:52,996 INFO 3240 [Timer] /Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 7147004ms at 2020-12-23 00:00:00.000
+2020-12-22 22:00:52,996 INFO 3240 [Timer] /Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 7148004ms at 2020-12-23 00:00:01.000
+2020-12-22 22:00:52,851 INFO 3241 [egg-schedule]: register schedule /Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-12-22 22:00:52,851 INFO 3241 [egg-schedule]: register schedule /Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-12-22 22:00:52,851 INFO 3241 [egg-schedule]: register schedule /Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

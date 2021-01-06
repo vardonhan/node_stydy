@@ -6,15 +6,11 @@ class HomeController extends Controller {
   async index() {
     const { ctx } = this;
     try {
-      new Promise((resolve, reject) => {
-        if (Math.random() > 0.7) {
-          resolve();
-        } else {
-          reject(new Error('something wrong'));
-        }
-      });
+      console.log(ctx.request.body)
+      ctx.validate({userName:{type:'userName'}}, ctx.request.body);
     } catch (error) {
-      throw new Error(error);
+      console.log(error)
+      return ctx.body = error
     }
     ctx.body = 'hi, egg';
   }

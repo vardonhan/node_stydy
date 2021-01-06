@@ -1,0 +1,280 @@
+{
+  "keys": "/Users/don/Documents/project/node_study/07-egg/egg-example/config/config.default.js",
+  "view": {
+    "defaultViewEngine": "/Users/don/Documents/project/node_study/07-egg/egg-example/config/config.default.js",
+    "mapping": {
+      ".tpl": "/Users/don/Documents/project/node_study/07-egg/egg-example/config/config.default.js"
+    },
+    "root": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-view/config/config.default.js"
+  },
+  "news": {
+    "pageSize": "/Users/don/Documents/project/node_study/07-egg/egg-example/config/config.default.js",
+    "serverUrl": "/Users/don/Documents/project/node_study/07-egg/egg-example/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js",
+      "type": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-static/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg-view-nunjucks/config/config.local.js"
+  },
+  "env": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+  "name": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "version": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "description": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "main": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "test": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+      "dev": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "license": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "strict": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+      "depth": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "env": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "level": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "logging": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+      "port": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/egg/config/config.default.js"
+}

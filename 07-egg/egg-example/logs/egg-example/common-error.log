@@ -1,0 +1,426 @@
+2020-12-12 10:45:19,266 ERROR 68180 nodejs.ClusterClientNoResponseError: client no response in 26357574ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 68180
+hostname: handongdeMacBook-Pro.local
+
+2020-12-12 10:54:32,344 ERROR 1113 [-/undefined/-/5035ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"hacker-news.firebaseio.com:443::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/urllib/lib/urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5026,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+headerSent: true
+pid: 1113
+hostname: handongdeMacBook-Pro.local
+
+2020-12-12 10:54:33,219 ERROR 1113 [-/::1/-/5007ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/urllib/lib/urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ConnectionTimeoutError"
+requestId: 2
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5005,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 1113
+hostname: handongdeMacBook-Pro.local
+
+2020-12-12 10:54:38,269 ERROR 1113 [-/undefined/-/5004ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/urllib/lib/urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ConnectionTimeoutError"
+requestId: 3
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5003,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+headerSent: true
+pid: 1113
+hostname: handongdeMacBook-Pro.local
+
+2020-12-12 11:23:45,180 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 945094ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-12 14:32:55,517 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 10820705ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-12 14:49:02,634 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 967046ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-12 16:49:32,677 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 7210005ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-12 17:09:38,493 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 945773ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-12 20:09:51,596 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 10793022ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-12 20:27:41,190 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 949476ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-12 20:39:51,016 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 642118ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-13 04:55:20,135 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 29681464ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-14 06:36:44,933 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 92464656ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-14 22:08:07,964 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 55883010ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-14 22:09:59,697 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 71671ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-14 22:18:17,216 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 437506ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-15 00:02:18,262 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 3344867ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-15 01:11:00,501 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 4062077ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-15 02:59:12,513 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 6431768ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-15 04:47:10,126 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 6437592ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-15 06:35:25,611 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 6435437ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-15 08:23:40,210 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 6454433ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-15 10:11:54,547 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 6454254ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-15 11:59:49,922 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 6455363ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-15 13:48:05,301 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 6455356ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-15 15:36:19,652 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 6454324ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-15 17:24:13,153 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 6453484ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-15 19:12:26,609 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 6453434ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-15 21:00:38,268 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 6451637ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-15 22:09:09,692 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 4091418ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-15 23:57:24,190 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 6454390ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-16 01:45:39,829 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 6455624ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-16 03:33:33,306 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 6453461ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-16 05:21:44,846 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 6431501ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-16 08:58:12,570 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 6454208ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-16 09:06:33,241 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 418314ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-16 10:44:24,057 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 993465ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-16 12:17:13,121 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 5429018ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-16 14:05:27,434 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 6454303ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-16 15:53:42,713 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 6455276ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-16 17:41:52,185 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 6408049ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-16 19:30:01,763 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 6408151ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-16 21:14:16,093 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 6214318ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-16 22:59:23,992 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 6307883ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-17 02:35:48,640 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 12864573ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-17 04:24:03,770 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 6495113ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-17 09:15:25,292 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 17213796ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-21 08:40:49,481 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 343504149ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
+2020-12-22 21:27:09,645 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 132380136ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/don/Documents/project/node_study/07-egg/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1112
+hostname: handongdeMacBook-Pro.local
+
